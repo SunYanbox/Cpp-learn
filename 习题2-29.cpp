@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 // define ONE to use while or define TWO to use do...while
-#define ONE
+#define TWO
 
 #ifdef ONE
 int main()
@@ -39,7 +39,8 @@ int main()
 		}
 		else if (guess > ans) cout << "猜大了" << endl;
 		else if (guess < ans) cout << "猜小了" << endl;
-	} while (true)
+		cout << "请继续猜测:";
+	} while (true);
 	return 0;
 }
 #endif // ONE

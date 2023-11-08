@@ -10,6 +10,6 @@ int main()
 	else if (score < 60) cout << "²î" << endl;
 	else if (score < 80) cout << "ÖÐ" << endl;
 	else if (score < 90) cout << "Á¼" << endl;
-	else if (score < 100) cout << "ÓÅ" << endl;
+	else cout << "ÓÅ" << endl;
 	return 0;
 }
