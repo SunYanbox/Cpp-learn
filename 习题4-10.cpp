@@ -38,7 +38,7 @@ public:
 	}
 
 	inline void displayInfo() const {
-		std::cout << "ID: " << num << "\nGender: " << gender << "\nBirth Date: ";
+		std::cout << "ID: " << num << "\nÐÔ±ð: " << gender << "\nBirth Date: ";
 		std::cout << birthday.getDate_Cn() << "\nID Card: " << identificationNumber << std::endl;
 	}
 
